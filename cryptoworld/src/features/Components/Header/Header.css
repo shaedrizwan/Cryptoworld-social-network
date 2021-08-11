@@ -1,0 +1,22 @@
+.header{
+    padding: 5px 30px;
+    background-color: #ececee;
+    display:flex;
+    align-items:center
+}
+
+.header-left{
+    flex: 0.5;
+}
+
+.header-right{
+    flex:0.5;
+    display:flex;
+    justify-content:space-evenly;
+    padding:0rem 1rem;
+}
+
+.header > .logo{
+    justify-self: flex-start;
+    margin-right: auto;
+}
