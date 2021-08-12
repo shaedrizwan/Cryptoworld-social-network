@@ -1,0 +1,11 @@
+.home{
+    display: flex;
+    background-color: #e4e4f7;
+}
+
+.widgets{
+    flex: 0.2;
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+}

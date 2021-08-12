@@ -1,0 +1,48 @@
+.sidebar{
+    flex:0.2;
+    margin: 1rem;
+    width: 100%;
+    /* background-color: #ececee; */
+    position: sticky;
+    top: 10px;
+}
+
+.sidebar-profile{
+    margin:1rem;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-profile-name{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.sidebar-profile-bio{
+    color:rgb(105, 105, 105);
+    font-size: .9rem;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.sidebar-profile-email{
+    color:rgb(105, 105, 105);
+    font-size: .9rem;
+    padding: 10px;
+}
+
+.profile-button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1DA1F2;
+    color: white;
+    font-weight: bold;
+    margin: 1rem 0rem
+}

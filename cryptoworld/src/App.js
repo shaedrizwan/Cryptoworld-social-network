@@ -15,7 +15,6 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <button onClick={()=>setLogin(login=>!login)}>{login?"Logout":"login"}</button>
       <Routes>
         <PrivateRoute exact path="/" login={login} element={<Home/>}/>
         <PrivateRoute path="/post/:id" login={login} element={<Post/>}/>

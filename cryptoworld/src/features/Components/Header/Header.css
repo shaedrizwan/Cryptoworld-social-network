@@ -1,8 +1,10 @@
 .header{
     padding: 5px 30px;
-    background-color: #ececee;
+    background-color: white;
     display:flex;
-    align-items:center
+    align-items:center;
+    position: sticky;
+    top: 0;
 }
 
 .header-left{
