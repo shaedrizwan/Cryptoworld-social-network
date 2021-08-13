@@ -2,9 +2,6 @@
     flex:0.2;
     margin: 1rem;
     width: 100%;
-    /* background-color: #ececee; */
-    position: sticky;
-    top: 10px;
 }
 
 .sidebar-profile{
@@ -16,6 +13,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top:10%;
 }
 
 .sidebar-profile-name{
