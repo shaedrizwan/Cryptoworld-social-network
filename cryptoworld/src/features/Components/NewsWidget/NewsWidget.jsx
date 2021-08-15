@@ -21,9 +21,10 @@ function NewsWidget() {
     return (
         <div className="news-widget">
             <div className="news-title">Trending News</div>
-            {/* {news && news.map(({title,link,pubDate}) =>{
+            {!news && <div>News Loading...</div>}
+            {news && news.length > 0 && news.map(({title,link,pubDate}) =>{
                 return <NewsList heading={title} link={link} date={pubDate} />
-            })} */}
+            })}
         </div>
     )
 }
