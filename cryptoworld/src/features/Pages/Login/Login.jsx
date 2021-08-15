@@ -19,7 +19,7 @@ function Login() {
             if(login){
                 dispatch(setLogout())
             }else{
-                const response = await axios.post('https://cryptoworld-backend.herokuapp.com/login',{
+                const response = await axios.post('https://cryptoworld-backend.herokuapp.com/user/login',{
                     username:username,
                     password:password
                     })

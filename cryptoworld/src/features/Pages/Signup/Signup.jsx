@@ -26,7 +26,7 @@ function Signup() {
     }
 
     const signupButtonPressed = async() =>{
-        const response = await axios.post('http://localhost:8000/user/signup',newUser)
+        const response = await axios.post('https://cryptoworld-backend.herokuapp.com/user/signup',newUser)
         if(response.status === 200){
             console.log("registration successful")
             navigate('/login')
