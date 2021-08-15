@@ -16,11 +16,11 @@ function Header() {
                 <Logo className="logo"/>
             </div>
             <div className="header-right">
-                <NavItem Icon={HomeIcon} name="Home"/>
-                <NavItem Icon={NotificationsIcon} name="Notifications"/>
-                <NavItem Icon={AccountCircleIcon} name="Profile"/>
-                <NavItem Icon={LockOpenIcon} name="Login"/>
-                <NavItem Icon={LockOpenIcon} name="Signup"/>
+                <NavItem Icon={HomeIcon} name="Home" path={"/"}/>
+                <NavItem Icon={NotificationsIcon} name="Notifications" path={"/"}/>
+                <NavItem Icon={AccountCircleIcon} name="Profile" path={"/profile"}/>
+                <NavItem Icon={LockOpenIcon} name="Login" path={"/login"}/>
+                <NavItem Icon={LockOpenIcon} name="Signup" path={"/signup"}/>
             </div>
             {/* navitems */}
         </div>
