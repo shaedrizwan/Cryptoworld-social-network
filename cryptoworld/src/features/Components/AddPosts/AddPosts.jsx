@@ -13,7 +13,7 @@ function AddPosts() {
 
     const postButtonPressed = async () =>{
         try{
-            const response = await axios.post('http://localhost:8000/post/add',{
+            const response = await axios.post('https://cryptoworld-backend.herokuapp.com/post/add',{
                 post:data,
             },{
                 headers:{
